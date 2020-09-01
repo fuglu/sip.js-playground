@@ -6,7 +6,7 @@ var ua = new SIP.UA({
   password: PASSWORD,
   uri: "sip:" + USERNAME + "@sipgate.de",
   transportOptions: {
-    wsServers: ["wss://tls01.sipgate.de", "wss://tls02.sipgate.de"]
+    wsServers: ["wss://sip.sipgate.de"]
   }
 });
 
